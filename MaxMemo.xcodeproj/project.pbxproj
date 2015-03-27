@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		149E71D91AC5CC370038039F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E71D81AC5CC370038039F /* AppDelegate.swift */; };
+		149E71DB1AC5CC370038039F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E71DA1AC5CC370038039F /* ViewController.swift */; };
+		149E71DE1AC5CC370038039F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149E71DC1AC5CC370038039F /* Main.storyboard */; };
+		149E71E01AC5CC370038039F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149E71DF1AC5CC370038039F /* Images.xcassets */; };
+		149E71E31AC5CC370038039F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149E71E11AC5CC370038039F /* LaunchScreen.xib */; };
+		149E71EF1AC5CC370038039F /* MaxMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E71EE1AC5CC370038039F /* MaxMemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		149E71E91AC5CC370038039F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149E71CB1AC5CC370038039F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 149E71D21AC5CC370038039F;
+			remoteInfo = MaxMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		149E71D31AC5CC370038039F /* MaxMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		149E71D71AC5CC370038039F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149E71D81AC5CC370038039F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		149E71DA1AC5CC370038039F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		149E71DD1AC5CC370038039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		149E71DF1AC5CC370038039F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		149E71E21AC5CC370038039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		149E71E81AC5CC370038039F /* MaxMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		149E71ED1AC5CC370038039F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149E71EE1AC5CC370038039F /* MaxMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149E71D01AC5CC370038039F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149E71E51AC5CC370038039F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149E71CA1AC5CC370038039F = {
+			isa = PBXGroup;
+			children = (
+				149E71D51AC5CC370038039F /* MaxMemo */,
+				149E71EB1AC5CC370038039F /* MaxMemoTests */,
+				149E71D41AC5CC370038039F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		149E71D41AC5CC370038039F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				149E71D31AC5CC370038039F /* MaxMemo.app */,
+				149E71E81AC5CC370038039F /* MaxMemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		149E71D51AC5CC370038039F /* MaxMemo */ = {
+			isa = PBXGroup;
+			children = (
+				149E71D81AC5CC370038039F /* AppDelegate.swift */,
+				149E71DA1AC5CC370038039F /* ViewController.swift */,
+				149E71DC1AC5CC370038039F /* Main.storyboard */,
+				149E71DF1AC5CC370038039F /* Images.xcassets */,
+				149E71E11AC5CC370038039F /* LaunchScreen.xib */,
+				149E71D61AC5CC370038039F /* Supporting Files */,
+			);
+			path = MaxMemo;
+			sourceTree = "<group>";
+		};
+		149E71D61AC5CC370038039F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149E71D71AC5CC370038039F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		149E71EB1AC5CC370038039F /* MaxMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				149E71EE1AC5CC370038039F /* MaxMemoTests.swift */,
+				149E71EC1AC5CC370038039F /* Supporting Files */,
+			);
+			path = MaxMemoTests;
+			sourceTree = "<group>";
+		};
+		149E71EC1AC5CC370038039F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149E71ED1AC5CC370038039F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		149E71D21AC5CC370038039F /* MaxMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149E71F21AC5CC370038039F /* Build configuration list for PBXNativeTarget "MaxMemo" */;
+			buildPhases = (
+				149E71CF1AC5CC370038039F /* Sources */,
+				149E71D01AC5CC370038039F /* Frameworks */,
+				149E71D11AC5CC370038039F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxMemo;
+			productName = MaxMemo;
+			productReference = 149E71D31AC5CC370038039F /* MaxMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		149E71E71AC5CC370038039F /* MaxMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149E71F51AC5CC370038039F /* Build configuration list for PBXNativeTarget "MaxMemoTests" */;
+			buildPhases = (
+				149E71E41AC5CC370038039F /* Sources */,
+				149E71E51AC5CC370038039F /* Frameworks */,
+				149E71E61AC5CC370038039F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				149E71EA1AC5CC370038039F /* PBXTargetDependency */,
+			);
+			name = MaxMemoTests;
+			productName = MaxMemoTests;
+			productReference = 149E71E81AC5CC370038039F /* MaxMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		149E71CB1AC5CC370038039F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Aleksandar Dimitrov";
+				TargetAttributes = {
+					149E71D21AC5CC370038039F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					149E71E71AC5CC370038039F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 149E71D21AC5CC370038039F;
+					};
+				};
+			};
+			buildConfigurationList = 149E71CE1AC5CC370038039F /* Build configuration list for PBXProject "MaxMemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 149E71CA1AC5CC370038039F;
+			productRefGroup = 149E71D41AC5CC370038039F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				149E71D21AC5CC370038039F /* MaxMemo */,
+				149E71E71AC5CC370038039F /* MaxMemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		149E71D11AC5CC370038039F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149E71DE1AC5CC370038039F /* Main.storyboard in Resources */,
+				149E71E31AC5CC370038039F /* LaunchScreen.xib in Resources */,
+				149E71E01AC5CC370038039F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149E71E61AC5CC370038039F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		149E71CF1AC5CC370038039F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149E71DB1AC5CC370038039F /* ViewController.swift in Sources */,
+				149E71D91AC5CC370038039F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149E71E41AC5CC370038039F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149E71EF1AC5CC370038039F /* MaxMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		149E71EA1AC5CC370038039F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 149E71D21AC5CC370038039F /* MaxMemo */;
+			targetProxy = 149E71E91AC5CC370038039F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		149E71DC1AC5CC370038039F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149E71DD1AC5CC370038039F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		149E71E11AC5CC370038039F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149E71E21AC5CC370038039F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		149E71F01AC5CC370038039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		149E71F11AC5CC370038039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		149E71F31AC5CC370038039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaxMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		149E71F41AC5CC370038039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaxMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		149E71F61AC5CC370038039F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MaxMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxMemo.app/MaxMemo";
+			};
+			name = Debug;
+		};
+		149E71F71AC5CC370038039F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MaxMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxMemo.app/MaxMemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		149E71CE1AC5CC370038039F /* Build configuration list for PBXProject "MaxMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149E71F01AC5CC370038039F /* Debug */,
+				149E71F11AC5CC370038039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149E71F21AC5CC370038039F /* Build configuration list for PBXNativeTarget "MaxMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149E71F31AC5CC370038039F /* Debug */,
+				149E71F41AC5CC370038039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		149E71F51AC5CC370038039F /* Build configuration list for PBXNativeTarget "MaxMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149E71F61AC5CC370038039F /* Debug */,
+				149E71F71AC5CC370038039F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 149E71CB1AC5CC370038039F /* Project object */;
+}
