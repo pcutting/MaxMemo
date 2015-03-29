@@ -339,6 +339,7 @@
 				INFOPLIST_FILE = MaxMemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -349,6 +350,7 @@
 				INFOPLIST_FILE = MaxMemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -405,6 +407,7 @@
 				149E71F41AC5CC370038039F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149E71F51AC5CC370038039F /* Build configuration list for PBXNativeTarget "MaxMemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +416,7 @@
 				149E71F71AC5CC370038039F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

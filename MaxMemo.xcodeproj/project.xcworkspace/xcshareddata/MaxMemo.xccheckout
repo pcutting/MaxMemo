@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>70F4222E-97E1-4CC9-9F57-ED328184D400</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MaxMemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9AD57913C5CBD58EDEA008D6A1C55D83202EBE51</key>
+		<string>github.com:pcutting/MaxMemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MaxMemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9AD57913C5CBD58EDEA008D6A1C55D83202EBE51</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:pcutting/MaxMemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9AD57913C5CBD58EDEA008D6A1C55D83202EBE51</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9AD57913C5CBD58EDEA008D6A1C55D83202EBE51</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MaxMemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
