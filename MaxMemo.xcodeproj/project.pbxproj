@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		149E71D91AC5CC370038039F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E71D81AC5CC370038039F /* AppDelegate.swift */; };
-		149E71DB1AC5CC370038039F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E71DA1AC5CC370038039F /* ViewController.swift */; };
+		149E71DB1AC5CC370038039F /* RecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E71DA1AC5CC370038039F /* RecordController.swift */; };
 		149E71DE1AC5CC370038039F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149E71DC1AC5CC370038039F /* Main.storyboard */; };
 		149E71E01AC5CC370038039F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149E71DF1AC5CC370038039F /* Images.xcassets */; };
 		149E71E31AC5CC370038039F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149E71E11AC5CC370038039F /* LaunchScreen.xib */; };
 		149E71EF1AC5CC370038039F /* MaxMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E71EE1AC5CC370038039F /* MaxMemoTests.swift */; };
+		14C9A0C21AC8259A005AEBF2 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9A0C11AC8259A005AEBF2 /* CategoryController.swift */; };
+		14C9A0C41AC825B1005AEBF2 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9A0C31AC825B1005AEBF2 /* PlayerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		149E71D31AC5CC370038039F /* MaxMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		149E71D71AC5CC370038039F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		149E71D81AC5CC370038039F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		149E71DA1AC5CC370038039F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		149E71DA1AC5CC370038039F /* RecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordController.swift; sourceTree = "<group>"; };
 		149E71DD1AC5CC370038039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		149E71DF1AC5CC370038039F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		149E71E21AC5CC370038039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		149E71E81AC5CC370038039F /* MaxMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		149E71ED1AC5CC370038039F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		149E71EE1AC5CC370038039F /* MaxMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMemoTests.swift; sourceTree = "<group>"; };
+		14C9A0C11AC8259A005AEBF2 /* CategoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		14C9A0C31AC825B1005AEBF2 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				149E71D81AC5CC370038039F /* AppDelegate.swift */,
-				149E71DA1AC5CC370038039F /* ViewController.swift */,
+				149E71DA1AC5CC370038039F /* RecordController.swift */,
+				14C9A0C31AC825B1005AEBF2 /* PlayerController.swift */,
+				14C9A0C11AC8259A005AEBF2 /* CategoryController.swift */,
 				149E71DC1AC5CC370038039F /* Main.storyboard */,
 				149E71DF1AC5CC370038039F /* Images.xcassets */,
 				149E71E11AC5CC370038039F /* LaunchScreen.xib */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149E71DB1AC5CC370038039F /* ViewController.swift in Sources */,
+				149E71DB1AC5CC370038039F /* RecordController.swift in Sources */,
 				149E71D91AC5CC370038039F /* AppDelegate.swift in Sources */,
+				14C9A0C41AC825B1005AEBF2 /* PlayerController.swift in Sources */,
+				14C9A0C21AC8259A005AEBF2 /* CategoryController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDelegate{
+class RecordController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDelegate{
     @IBOutlet var playButton: UIButton!
     @IBOutlet var stopButton: UIButton!
     @IBOutlet var recordButton: UIButton!
