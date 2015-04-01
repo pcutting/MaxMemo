@@ -15,6 +15,9 @@
 		149E71EF1AC5CC370038039F /* MaxMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E71EE1AC5CC370038039F /* MaxMemoTests.swift */; };
 		14C9A0C21AC8259A005AEBF2 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9A0C11AC8259A005AEBF2 /* CategoryController.swift */; };
 		14C9A0C41AC825B1005AEBF2 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9A0C31AC825B1005AEBF2 /* PlayerController.swift */; };
+		14C9A0C61AC9ED1A005AEBF2 /* AudioRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9A0C51AC9ED1A005AEBF2 /* AudioRecord.swift */; };
+		14C9A0C81AC9ED9F005AEBF2 /* AudioMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9A0C71AC9ED9F005AEBF2 /* AudioMemo.swift */; };
+		14C9A0CA1AC9EDD4005AEBF2 /* TextMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9A0C91AC9EDD4005AEBF2 /* TextMemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		149E71EE1AC5CC370038039F /* MaxMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMemoTests.swift; sourceTree = "<group>"; };
 		14C9A0C11AC8259A005AEBF2 /* CategoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
 		14C9A0C31AC825B1005AEBF2 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		14C9A0C51AC9ED1A005AEBF2 /* AudioRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecord.swift; sourceTree = "<group>"; };
+		14C9A0C71AC9ED9F005AEBF2 /* AudioMemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioMemo.swift; sourceTree = "<group>"; };
+		14C9A0C91AC9EDD4005AEBF2 /* TextMemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextMemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		149E71D51AC5CC370038039F /* MaxMemo */ = {
 			isa = PBXGroup;
 			children = (
+				14C9A0CB1AC9EEDF005AEBF2 /* Model */,
 				149E71D81AC5CC370038039F /* AppDelegate.swift */,
 				149E71DA1AC5CC370038039F /* RecordController.swift */,
 				14C9A0C31AC825B1005AEBF2 /* PlayerController.swift */,
@@ -116,6 +123,16 @@
 				149E71ED1AC5CC370038039F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14C9A0CB1AC9EEDF005AEBF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14C9A0C91AC9EDD4005AEBF2 /* TextMemo.swift */,
+				14C9A0C71AC9ED9F005AEBF2 /* AudioMemo.swift */,
+				14C9A0C51AC9ED1A005AEBF2 /* AudioRecord.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +237,11 @@
 			files = (
 				149E71DB1AC5CC370038039F /* RecordController.swift in Sources */,
 				149E71D91AC5CC370038039F /* AppDelegate.swift in Sources */,
+				14C9A0C81AC9ED9F005AEBF2 /* AudioMemo.swift in Sources */,
 				14C9A0C41AC825B1005AEBF2 /* PlayerController.swift in Sources */,
 				14C9A0C21AC8259A005AEBF2 /* CategoryController.swift in Sources */,
+				14C9A0CA1AC9EDD4005AEBF2 /* TextMemo.swift in Sources */,
+				14C9A0C61AC9ED1A005AEBF2 /* AudioRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

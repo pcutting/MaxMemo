@@ -69,14 +69,18 @@ class RecordController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorder
                 userInfo:nil,
                 repeats:true)
         } else {
+            playButton.enabled = true
             recordButton.setTitle("Record", forState: UIControlState.Normal)
             audioRecorder?.pause()
+            var error: NSError?
+            audioPlayer = AVAudioPlayer(contentsOfURL: audioRecorder?.url, error: &error)
+            audioPlayer?.delegate = self
         }
     }
     
     @IBAction func stopAudio(sender: AnyObject) {
         stopButton.enabled = false
-        playButton.enabled = true
+        playButton.enabled = false
         recordButton.enabled = true
         recordButton.setTitle("Record", forState: UIControlState.Normal)
         timer.invalidate()
@@ -84,29 +88,52 @@ class RecordController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorder
         
         if audioPlayer?.playing == true{
             audioPlayer?.stop()
-        } else {
-            audioRecorder?.stop()
         }
-        
+            audioRecorder?.stop()
+            self.saveRecord()
         
     }
     
+    func saveRecord() {
+        var alertController:UIAlertController?
+        alertController = UIAlertController(title: "Save Recording",
+            message: "Enter record name below",
+            preferredStyle: .Alert)
+        
+        alertController!.addTextFieldWithConfigurationHandler({(textField: UITextField!) in})
+        
+        let action = UIAlertAction(title: "Save",
+            style: UIAlertActionStyle.Default,
+            handler: {[weak self]
+                (paramAction:UIAlertAction!) in
+                if let textFields = alertController?.textFields{
+                    let theTextFields = textFields as [UITextField]
+                    let enteredText = theTextFields[0].text
+                    
+                }
+        })
+        
+        alertController!.addAction(UIAlertAction(title: "Delete", style: .Default, handler: { (action: UIAlertAction!) in }))
+        
+        alertController?.addAction(action)
+        self.presentViewController(alertController!,
+            animated: true,
+            completion: nil)
+    }
+    
+    
     @IBAction func playAudio(sender: AnyObject) {
-        if audioRecorder?.recording == false {
+        println("playing \(audioPlayer?.playing)")
+        if audioPlayer?.playing == false {
+            playButton.setTitle("Pause", forState: UIControlState.Normal)
             stopButton.enabled = true
             recordButton.enabled = false
             
-            var error: NSError?
+            audioPlayer?.play()
             
-            audioPlayer = AVAudioPlayer(contentsOfURL: audioRecorder?.url, error: &error)
-            
-            audioPlayer?.delegate = self
-            
-            if let err = error {
-                println("audioPlayer error: \(err.localizedDescription)")
-            } else {
-                audioPlayer?.play()
-            }
+        } else {
+            playButton.setTitle("Play", forState: UIControlState.Normal)
+            audioPlayer?.pause()
         }
     }
     
