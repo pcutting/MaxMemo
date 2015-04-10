@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "149E71D21AC5CC370038039F"
-               BuildableName = "MaxMemo.app"
-               BlueprintName = "MaxMemo"
-               ReferencedContainer = "container:MaxMemo.xcodeproj">
+               BuildableName = "Max Memo.app"
+               BlueprintName = "Max Memo"
+               ReferencedContainer = "container:Max Memo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "149E71E71AC5CC370038039F"
-               BuildableName = "MaxMemoTests.xctest"
-               BlueprintName = "MaxMemoTests"
-               ReferencedContainer = "container:MaxMemo.xcodeproj">
+               BuildableName = "Max MemoTests.xctest"
+               BlueprintName = "Max MemoTests"
+               ReferencedContainer = "container:Max Memo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "149E71E71AC5CC370038039F"
-               BuildableName = "MaxMemoTests.xctest"
-               BlueprintName = "MaxMemoTests"
-               ReferencedContainer = "container:MaxMemo.xcodeproj">
+               BuildableName = "Max MemoTests.xctest"
+               BlueprintName = "Max MemoTests"
+               ReferencedContainer = "container:Max Memo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "149E71D21AC5CC370038039F"
-            BuildableName = "MaxMemo.app"
-            BlueprintName = "MaxMemo"
-            ReferencedContainer = "container:MaxMemo.xcodeproj">
+            BuildableName = "Max Memo.app"
+            BlueprintName = "Max Memo"
+            ReferencedContainer = "container:Max Memo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "149E71D21AC5CC370038039F"
-            BuildableName = "MaxMemo.app"
-            BlueprintName = "MaxMemo"
-            ReferencedContainer = "container:MaxMemo.xcodeproj">
+            BuildableName = "Max Memo.app"
+            BlueprintName = "Max Memo"
+            ReferencedContainer = "container:Max Memo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "149E71D21AC5CC370038039F"
-            BuildableName = "MaxMemo.app"
-            BlueprintName = "MaxMemo"
-            ReferencedContainer = "container:MaxMemo.xcodeproj">
+            BuildableName = "Max Memo.app"
+            BlueprintName = "Max Memo"
+            ReferencedContainer = "container:Max Memo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
